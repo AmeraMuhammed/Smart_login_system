@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!--^ CSS Files -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <section class="d-flex justify-content-center align-items-center px-sm-5 px-3 py-sm-0 py-5">
+        <div class="main-section rounded-4 d-flex flex-row overflow-hidden bg-white">
+            <div class="styling-signup text-white px-2 d-md-flex d-sm-flex d-lg-flex d-none flex-column justify-content-center overflow-hidden">
+                <h1 class="text-center fw-bold mb-3">Welcome back!</h1>
+                <p class="text-center mb-4 register">Enter your personal details to use all of site features</p>
+                <p class="text-center mb-22">You have an account?</p>
+                <a href="./index.html" class="samera">Sign in</a>
+            </div>
+            <div class="content pt-5 mt-2 px-md-5 px-4">
+                <div class="title">
+                    <h1 class="fw-bold text-center mb-5"> Login System</h1>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Enter your Name" class="form-control signup-name mb-4" />
+                    <input type="email" placeholder="Enter your Email" class="form-control signup-email mb-4" />
+                    <input type="password" placeholder="Enter your Password"
+                        class="form-control signup-password mb-4" />
+                    <p class="empty-input error-color text-center d-none">
+                        All inputs required
+                    </p>
+                    <p class="exsit-email error-color text-center d-none">
+                        Email already exists
+                    </p>
+                    <p class="success text-center d-none fw-bold">Success</p>
+                    <button class="signup btn btn-info mx-auto d-block mb-4" type="button">
+                        Sign Up
+                    </button>
+                </form>
+                <p class="account text-center mt-4 d-sm-none d-block">You have an account? <a href="./index.html" class="text-decoration-none"> Sign In</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

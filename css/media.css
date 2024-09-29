@@ -1,0 +1,26 @@
+@media(max-width: 900px){
+    .styling{
+        width: 330px;
+        height: 420px;
+    }
+    .styling-signup{
+        width: 330px;
+        height: 450px;
+    }
+    .content{
+        width:330px ;
+    }
+}
+
+@media(max-width: 576px){
+    .styling , .styling-signup{
+        display: none;
+    }
+    .content{
+        width:330px ;
+        min-height: 470px;
+    }
+    .account{
+        display: block;
+    }
+}

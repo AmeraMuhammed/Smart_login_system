@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!--^ CSS Files -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class=" d-flex justify-content-center align-items-center px-sm-5 px-3 py-sm-0 py-5">
+        <div class="main-section rounded-4 d-flex flex-row justify-content-between bg-white overflow-hidden" >
+            <div class="content pt-5 mt-2 px-sm-5 px-4">
+                <div class="title">
+                    <h1 class="fw-bolder text-center mb-5 fs-2 ">Login System</h1>
+                </div>
+                <form action="">
+                    <input type="email" placeholder="Enter your Email" class="signinemail form-control mb-4">
+                    <input type="password" placeholder="Enter your Password" class="signinpassword form-control mb-4">
+                    <p class="empty-input error-color text-center d-none">All inputs required</p>
+                    <p class="error error-color text-center d-none">incorrect Email or Password</p>
+                    <button  class="login btn btn-info mx-auto mb-4 d-block" type="button">Login</button>
+                </form>
+                <p class="account text-center mt-4 d-sm-none d-block">Don’t have an account? <a href="./sign-up.html" class="text-decoration-none"> Sign Up</a></p>
+            </div>
+            <div class="styling text-white px-2 d-md-flex d-sm-flex d-lg-flex d-none flex-column justify-content-center overflow-hidden">
+                <h1 class="text-center fw-bold mb-3">Hello Friend!</h1>
+                <p class="text-center mb-4 register">Register with your personal details to use all of site features</p>
+                <p class="text-center mb-2">Don’t have an account?</p>
+                <a href="./sign-up.html" class="sign-up btn btn-info">Sign Up</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
